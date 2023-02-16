@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ikigai Landing Page</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../src/style/materialize.min.css" />
+    <link href="../src/style/icon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../src/style/style.css" />
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper header">
+        <img
+          class="brand-logo logo"
+          src="../src/assests/image/logoikigai.png"
+          alt=""
+        />
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="navbar hide-on-med-and-down">
+          <li class="navbar__item">
+            <a href="#inicio" class="navbar__link">Inicio</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#platos" class="navbar__link">Nuestros platos</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contacto" class="navbar__link">Contacto</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#ubicacion" class="navbar__link">Ubicación</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#platos">Nuestros platos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+    </ul>
+
+    <div>
+      <main>
+        <section class="banner" id="inicio">
+          <div class="banner__content">
+            <div class="banne__imagen">
+              <img src="" alt="" />
+            </div>
+            <div class="banner__texto">
+              <h1 class="banner__titulo">
+                Bienvenido a Ikigai <br />
+                <span class="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </section>
+        <section id="platos">
+          <div class="container__carousel">
+            <div class="carousel center-align">
+              <div class="carousel-item">
+                <img src="../src/assests/image/1.jpg" alt="" />
+                <h2 class="subtitulo">Sushi</h2>
+                <div class="linea-division"></div>
+                <p class="descripcion">Glaseadas</p>
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/assests/image/2.jpg" width="400" alt="" />
+                <h2 class="subtitulo">Teppanyaki</h2>
+                <div class="linea-division"></div>
+                <p class="descripcion">Chocolate</p>
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/assests/image/3.jpg" width="400" alt="" />
+                <h2 class="subtitulo">Gyosas</h2>
+                <div class="linea-division"></div>
+                <p class="descripcion">Empanaditas al estilo oriental</p>
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/assests/image/4.jpg" width="400" alt="" />
+                <h2 class="subtitulo">alitas</h2>
+                <div class="linea-division"></div>
+                <p class="descripcion">Merengue</p>
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/assests/image/5.jpg" width="400" alt="" />
+                <h2 class="subtitulo">sopas</h2>
+                <div class="linea-division"></div>
+                <p class="descripcion">
+                  Filete de pescado blanco, anillos de calamar, camarón, arroz
+                  yakimeshi y verduras.
+                </p>
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/assests/image/2.jpg" width="400" alt="" />
+                <h2 class="subtitulo">Platos al wok</h2>
+                <div class="linea-division"></div>
+                <p class="descripcion">Chocolate</p>
+              </div>
+              <div class="carousel-item">
+                <img src="../src/assests/image/2.jpg" width="400" alt="" />
+                <h2 class="subtitulo">Platos al wok</h2>
+                <div class="linea-division"></div>
+                <p class="descripcion">Chocolate</p>
+              </div>
+            </div>
+          </div>
+          <div class="btn-ir">
+            <a href="#">Ir al menú completo</a>
+          </div>
+        </section>
+        <section class="mapa" id="ubicacion">
+          <div class="mapa__contanier-titulo">
+            <h2>nuestra ubicación</h2>
+            <img src="../src/assests/icons/ubicacion.png" alt="" />
+          </div>
+          <div class="container__mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.1750136530671!2d-73.81384801328696!3d5.309411085284971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e40394e65ede2d9%3A0x27f2688cfbfe1492!2sIkigai%20ubate!5e0!3m2!1ses-419!2sco!4v1675457542351!5m2!1ses-419!2sco"
+              width="250"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+        <div class="btn-whatsapp">
+          <a
+            href="https://api.whatsapp.com/send/?phone=573115814330&text=hola&nbsp;que&nbsp;tal"
+            target="_blank"
+            ><img src="../src/assests/icons/whatsapp.png" alt="" />
+          </a>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="footer__social-media" id="contacto">
+        <div>
+          <img src="../src/assests/icons/facebook-icon.png" alt="" />
+          <p>ikigaiubate</p>
+        </div>
+        <div>
+          <img src="../src/assests/icons/instagram-icon.png" alt="" />
+          <p>ikigaiubate</p>
+        </div>
+        <div>
+          <img src="../src/assests/icons/gmail-icon.png" alt="" />
+          <p>ikigaiubate@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer__ubicacion">
+        <div>
+          <img src="../src/assests/icons/ubicacion.png" alt="" />
+          <p>
+            calle 10 numero 7-34 centro comercial la septima cuarto piso, Ubate,
+            Colombia
+          </p>
+        </div>
+        <div>
+          <img src="../src/assests/icons/ubicacion.png" alt="" />
+          <p>calle 7 numero 8-34 centro la Tapia, Ubate, Colombia</p>
+        </div>
+      </div>
+
+      <div class="footer__desing">
+        <p>Copyright Ikigai-2023.</p>
+        <p>Desing</p>
+        <img class="logoEAG" src="../src/assests/image/logoEAG.png" alt="" />
+      </div>
+    </footer>
+    <script src="../src/materialize.min.js"></script>
+    <script src="../src/typed.js"></script>
+    <script src="../src/index.js"></script>
+  </body>
+</html>
